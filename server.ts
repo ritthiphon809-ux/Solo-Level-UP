@@ -1,6 +1,5 @@
 import express from 'express';
 import path from 'path';
-import { createServer as createViteServer } from 'vite';
 import dotenv from 'dotenv';
 import { db } from './server/db.js';
 import { parsePlayerMessageWithAI } from './server/gemini.js';
@@ -531,6 +530,7 @@ app.use(
   async function startServer() {
     if (!process.env.VERCEL) {
       if (process.env.NODE_ENV !== 'production') {
+        const { createServer: createViteServer } = await import('vite');
         const vite = await createViteServer({
           server: { middlewareMode: true },
           appType: 'spa',
