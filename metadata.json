@@ -1,0 +1,6 @@
+{
+  "name": "SOLO LEVEL UP",
+  "description": "The real-life System interface that turns every user into the protagonist with personal quests, stats, EXP, level progression, and AI system guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

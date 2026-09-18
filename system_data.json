@@ -1,0 +1,801 @@
+{
+  "users": {
+    "user_ohm": {
+      "id": "user_ohm",
+      "username": "ohm",
+      "name": "OHM"
+    },
+    "user_jane": {
+      "id": "user_jane",
+      "username": "jane",
+      "name": "JANE"
+    }
+  },
+  "profiles": {
+    "user_ohm": {
+      "id": "prof_ohm",
+      "userId": "user_ohm",
+      "name": "OHM",
+      "title": "SHADOW PROTAGONIST",
+      "age": 26,
+      "height": 178,
+      "weight": 73,
+      "activityLevel": "HIGH",
+      "goal": "Complete Physical & Mental Transformation",
+      "availableTime": "60-90 min/day",
+      "currentStreak": 20,
+      "bestStreak": 21,
+      "totalQuestsCompleted": 131,
+      "awakenedAt": "2026-08-04T01:09:45.254Z",
+      "penaltyCount": 1,
+      "isAwakened": true,
+      "linePairingCode": "SOLO-OHM-7439"
+    },
+    "user_jane": {
+      "id": "prof_jane",
+      "userId": "user_jane",
+      "name": "JANE",
+      "title": "ROOKIE PROTAGONIST",
+      "age": 23,
+      "height": 165,
+      "weight": 56,
+      "activityLevel": "LIGHT",
+      "goal": "Build Daily Habit & Endurance",
+      "availableTime": "30-45 min/day",
+      "currentStreak": 1,
+      "bestStreak": 1,
+      "totalQuestsCompleted": 0,
+      "awakenedAt": "2026-09-18T01:09:45.255Z",
+      "penaltyCount": 0,
+      "isAwakened": true
+    }
+  },
+  "stats": {
+    "user_ohm": {
+      "str": 19,
+      "agi": 15,
+      "vit": 20,
+      "end": 17,
+      "disc": 25,
+      "unallocatedPoints": 0
+    },
+    "user_jane": {
+      "str": 10,
+      "agi": 10,
+      "vit": 10,
+      "end": 10,
+      "disc": 10,
+      "unallocatedPoints": 0
+    }
+  },
+  "levels": {
+    "user_ohm": {
+      "currentLevel": 12,
+      "currentExp": 2865,
+      "nextLevelExp": 3000,
+      "rank": "C"
+    },
+    "user_jane": {
+      "currentLevel": 1,
+      "currentExp": 0,
+      "nextLevelExp": 100,
+      "rank": "E"
+    }
+  },
+  "quests": {
+    "user_ohm": [
+      {
+        "id": "quest_recov_1789693962517",
+        "userId": "user_ohm",
+        "type": "RECOVERY",
+        "title": "RECOVERY PROTOCOL: BIOMETRIC RESTORATION",
+        "subtitle": "Fatigue Mitigation & Restoration",
+        "objectives": [
+          {
+            "id": "obj_rc_1",
+            "description": "Pure Hydration Intake",
+            "target": 2000,
+            "current": 2000,
+            "unit": "ml",
+            "completed": true
+          },
+          {
+            "id": "obj_rc_2",
+            "description": "Full Body Mobility & Stretching",
+            "target": 20,
+            "current": 20,
+            "unit": "min",
+            "completed": true
+          },
+          {
+            "id": "obj_rc_3",
+            "description": "Early Sleep Protocol (Pre-Midnight)",
+            "target": 1,
+            "current": 1,
+            "unit": "session",
+            "completed": true
+          }
+        ],
+        "timeLimit": "23:59:59",
+        "deadline": "2026-09-18T23:59:59.999Z",
+        "expReward": 120,
+        "statRewards": {
+          "vit": 2
+        },
+        "status": "COMPLETED",
+        "createdAt": "2026-09-18T01:12:42.517Z",
+        "completedAt": "2026-09-18T01:18:17.881Z"
+      },
+      {
+        "id": "quest_ohm_daily_1",
+        "userId": "user_ohm",
+        "type": "DAILY",
+        "title": "THE FOUNDATION PROTOCOL",
+        "subtitle": "Daily Physical Calibration",
+        "objectives": [
+          {
+            "id": "obj_1",
+            "description": "Push-ups",
+            "target": 50,
+            "current": 50,
+            "unit": "reps",
+            "completed": true
+          },
+          {
+            "id": "obj_2",
+            "description": "Bodyweight Squats",
+            "target": 80,
+            "current": 80,
+            "unit": "reps",
+            "completed": true
+          },
+          {
+            "id": "obj_3",
+            "description": "Zone 2 Brisk Walk / Run",
+            "target": 30,
+            "current": 30,
+            "unit": "min",
+            "completed": true
+          }
+        ],
+        "timeLimit": "23:59:59",
+        "deadline": "2026-09-18T23:59:59.999Z",
+        "expReward": 150,
+        "statRewards": {
+          "str": 1,
+          "end": 1
+        },
+        "status": "COMPLETED",
+        "createdAt": "2026-09-18T01:09:45.255Z",
+        "completedAt": "2026-09-18T01:15:10.704Z"
+      },
+      {
+        "id": "quest_ohm_disc_1",
+        "userId": "user_ohm",
+        "type": "DISCIPLINE",
+        "title": "NEURAL CONCENTRATION",
+        "subtitle": "High Focus Deep Work Session",
+        "objectives": [
+          {
+            "id": "obj_4",
+            "description": "Zero Phone Distraction Work",
+            "target": 45,
+            "current": 45,
+            "unit": "min",
+            "completed": true
+          },
+          {
+            "id": "obj_5",
+            "description": "Read Technical / Knowledge Material",
+            "target": 20,
+            "current": 20,
+            "unit": "pages",
+            "completed": true
+          }
+        ],
+        "timeLimit": "23:59:59",
+        "deadline": "2026-09-18T23:59:59.999Z",
+        "expReward": 120,
+        "statRewards": {
+          "disc": 1
+        },
+        "status": "COMPLETED",
+        "createdAt": "2026-09-18T01:09:45.255Z",
+        "completedAt": "2026-09-18T01:18:17.346Z"
+      },
+      {
+        "id": "quest_ohm_emerg_1",
+        "userId": "user_ohm",
+        "type": "EMERGENCY",
+        "title": "SUDDEN OVERCOMING",
+        "subtitle": "System Fatigue Override Protocol",
+        "objectives": [
+          {
+            "id": "obj_6",
+            "description": "Cold Water Hydration & Electrolytes",
+            "target": 1000,
+            "current": 1000,
+            "unit": "ml",
+            "completed": true
+          },
+          {
+            "id": "obj_7",
+            "description": "Spinal Mobility & Stretching",
+            "target": 15,
+            "current": 15,
+            "unit": "min",
+            "completed": true
+          }
+        ],
+        "timeLimit": "02:00:00",
+        "deadline": "2026-09-18T03:09:45.255Z",
+        "expReward": 300,
+        "statRewards": {
+          "vit": 1,
+          "disc": 1
+        },
+        "status": "COMPLETED",
+        "completedAt": "2026-09-18T00:09:45.255Z",
+        "createdAt": "2026-09-17T23:09:45.255Z"
+      }
+    ],
+    "user_jane": [
+      {
+        "id": "quest_jane_daily_1",
+        "userId": "user_jane",
+        "type": "DAILY",
+        "title": "INITIAL AWAKENING PROTOCOL",
+        "subtitle": "Baseline Physical Assessment",
+        "objectives": [
+          {
+            "id": "obj_j1",
+            "description": "Wall or Knee Push-ups",
+            "target": 15,
+            "current": 0,
+            "unit": "reps",
+            "completed": false
+          },
+          {
+            "id": "obj_j2",
+            "description": "Bodyweight Squats",
+            "target": 20,
+            "current": 0,
+            "unit": "reps",
+            "completed": false
+          },
+          {
+            "id": "obj_j3",
+            "description": "Gentle Stride Walk",
+            "target": 20,
+            "current": 0,
+            "unit": "min",
+            "completed": false
+          }
+        ],
+        "timeLimit": "23:59:59",
+        "deadline": "2026-09-18T23:59:59.999Z",
+        "expReward": 100,
+        "statRewards": {
+          "str": 1,
+          "vit": 1
+        },
+        "status": "INCOMPLETE",
+        "createdAt": "2026-09-18T01:09:45.255Z"
+      }
+    ]
+  },
+  "expTransactions": {
+    "user_ohm": [
+      {
+        "id": "tx_1789694297881_4ajbr",
+        "userId": "user_ohm",
+        "amount": 120,
+        "source": "RECOVERY_QUEST",
+        "questId": "quest_recov_1789693962517",
+        "description": "QUEST COMPLETED: RECOVERY PROTOCOL: BIOMETRIC RESTORATION",
+        "timestamp": "2026-09-18T01:18:17.881Z",
+        "balanceAfter": 2865
+      },
+      {
+        "id": "tx_1789694297346_n9im1",
+        "userId": "user_ohm",
+        "amount": 120,
+        "source": "DISCIPLINE_QUEST",
+        "questId": "quest_ohm_disc_1",
+        "description": "QUEST COMPLETED: NEURAL CONCENTRATION",
+        "timestamp": "2026-09-18T01:18:17.346Z",
+        "balanceAfter": 2745
+      },
+      {
+        "id": "tx_1789694181623_yaidk",
+        "userId": "user_ohm",
+        "amount": 25,
+        "source": "LINE_ACTION_LOGGED",
+        "description": "Direct Action logged: Push-up x 30",
+        "timestamp": "2026-09-18T01:16:21.623Z",
+        "balanceAfter": 2625
+      },
+      {
+        "id": "tx_1789694110704_cnhor",
+        "userId": "user_ohm",
+        "amount": 150,
+        "source": "DAILY_QUEST",
+        "questId": "quest_ohm_daily_1",
+        "description": "QUEST COMPLETED: THE FOUNDATION PROTOCOL",
+        "timestamp": "2026-09-18T01:15:10.704Z",
+        "balanceAfter": 2600
+      },
+      {
+        "id": "tx_ohm_1",
+        "userId": "user_ohm",
+        "amount": 300,
+        "source": "EMERGENCY_QUEST",
+        "questId": "quest_ohm_emerg_1",
+        "description": "EMERGENCY QUEST OVERCOME: Sudden Overcoming",
+        "timestamp": "2026-09-18T00:09:45.255Z",
+        "balanceAfter": 2450
+      },
+      {
+        "id": "tx_ohm_2",
+        "userId": "user_ohm",
+        "amount": 150,
+        "source": "DAILY_QUEST",
+        "description": "DAILY QUEST COMPLETE: Foundation Day 16",
+        "timestamp": "2026-09-17T01:09:45.255Z",
+        "balanceAfter": 2150
+      },
+      {
+        "id": "tx_ohm_3",
+        "userId": "user_ohm",
+        "amount": 250,
+        "source": "SPECIAL_QUEST",
+        "description": "SPECIAL QUEST: Weekend Endurance Milestone",
+        "timestamp": "2026-09-16T01:09:45.255Z",
+        "balanceAfter": 2000
+      }
+    ],
+    "user_jane": []
+  },
+  "notifications": {
+    "user_ohm": [
+      {
+        "id": "notif_1789694297882_9ca",
+        "userId": "user_ohm",
+        "type": "COMPLETED",
+        "title": "QUEST COMPLETE",
+        "message": "[SYSTEM]\nQUEST COMPLETE.\nRECOVERY PROTOCOL: BIOMETRIC RESTORATION\n+120 EXP REWARDED.",
+        "timestamp": "2026-09-18T01:18:17.882Z",
+        "read": false
+      },
+      {
+        "id": "notif_1789694297347_b4q",
+        "userId": "user_ohm",
+        "type": "COMPLETED",
+        "title": "QUEST COMPLETE",
+        "message": "[SYSTEM]\nQUEST COMPLETE.\nNEURAL CONCENTRATION\n+120 EXP REWARDED.",
+        "timestamp": "2026-09-18T01:18:17.347Z",
+        "read": false
+      },
+      {
+        "id": "notif_1789694110704_lhh",
+        "userId": "user_ohm",
+        "type": "COMPLETED",
+        "title": "QUEST COMPLETE",
+        "message": "[SYSTEM]\nQUEST COMPLETE.\nTHE FOUNDATION PROTOCOL\n+150 EXP REWARDED.",
+        "timestamp": "2026-09-18T01:15:10.704Z",
+        "read": false
+      },
+      {
+        "id": "notif_1789693962517_gu0",
+        "userId": "user_ohm",
+        "type": "ASSIGNED",
+        "title": "RECOVERY QUEST ASSIGNED",
+        "message": "[SYSTEM]\nRECOVERY QUEST HAS BEEN ASSIGNED.\nRECOVERY PROTOCOL: BIOMETRIC RESTORATION\nCOMPLETE THE QUEST BEFORE THE DEADLINE.",
+        "timestamp": "2026-09-18T01:12:42.517Z",
+        "read": false
+      },
+      {
+        "id": "notif_ohm_1",
+        "userId": "user_ohm",
+        "type": "ALERT",
+        "title": "QUEST DEADLINE APPROACHING",
+        "message": "Foundation Protocol remaining objectives pending verification. Deadline: 23:59.",
+        "timestamp": "2026-09-18T01:09:45.255Z",
+        "read": false
+      },
+      {
+        "id": "notif_ohm_2",
+        "userId": "user_ohm",
+        "type": "COMPLETED",
+        "title": "EMERGENCY QUEST CLEARED",
+        "message": "Sudden Overcoming verified. +300 EXP recorded.",
+        "timestamp": "2026-09-18T00:09:45.255Z",
+        "read": true
+      }
+    ],
+    "user_jane": [
+      {
+        "id": "notif_jane_1",
+        "userId": "user_jane",
+        "type": "ASSIGNED",
+        "title": "SYSTEM INITIALIZATION COMPLETE",
+        "message": "WELCOME, PLAYER JANE. Level 01 [Rank E] assigned. Your first quest awaits.",
+        "timestamp": "2026-09-18T01:09:45.255Z",
+        "read": false
+      }
+    ]
+  },
+  "achievements": {
+    "user_ohm": [
+      {
+        "id": "ach_first_awakening",
+        "code": "AWAKENING",
+        "title": "THE AWAKENING",
+        "description": "Received the System and completed Player Identification.",
+        "category": "FOUNDATION",
+        "expReward": 100,
+        "maxProgress": 1,
+        "progress": 1,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_first_quest",
+        "code": "FIRST_QUEST",
+        "title": "FIRST STEP",
+        "description": "Complete your first assigned System Quest.",
+        "category": "FOUNDATION",
+        "expReward": 150,
+        "maxProgress": 1,
+        "progress": 1,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_streak_7",
+        "code": "SURVIVOR_7",
+        "title": "7-DAY SURVIVOR",
+        "description": "Complete quests for 7 consecutive days without failing.",
+        "category": "STREAK",
+        "expReward": 350,
+        "maxProgress": 7,
+        "progress": 7,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_streak_30",
+        "code": "IRON_WILL_30",
+        "title": "IRON WILL",
+        "description": "Maintain a 30-day continuous System streak.",
+        "category": "STREAK",
+        "expReward": 1000,
+        "maxProgress": 30,
+        "progress": 17,
+        "unlocked": false
+      },
+      {
+        "id": "ach_disc_50",
+        "code": "DISCIPLINED_50",
+        "title": "DISCIPLINED",
+        "description": "Successfully fulfill 50 System quests.",
+        "category": "MASTERY",
+        "expReward": 500,
+        "maxProgress": 50,
+        "progress": 50,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_disc_100",
+        "code": "CENTURION_100",
+        "title": "CENTURION",
+        "description": "Successfully fulfill 100 System quests.",
+        "category": "MASTERY",
+        "expReward": 1200,
+        "maxProgress": 100,
+        "progress": 100,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_rank_c",
+        "code": "RANK_C_PROMOTION",
+        "title": "ADVANCED PROTAGONIST",
+        "description": "Achieve System Rank C classification.",
+        "category": "MASTERY",
+        "expReward": 400,
+        "maxProgress": 1,
+        "progress": 1,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_emergency",
+        "code": "LIMIT_BREAKER",
+        "title": "LIMIT BREAKER",
+        "description": "Overcome a high-stress Emergency Quest before expiration.",
+        "category": "SPECIAL",
+        "expReward": 600,
+        "maxProgress": 1,
+        "progress": 1,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      }
+    ],
+    "user_jane": [
+      {
+        "id": "ach_first_awakening",
+        "code": "AWAKENING",
+        "title": "THE AWAKENING",
+        "description": "Received the System and completed Player Identification.",
+        "category": "FOUNDATION",
+        "expReward": 100,
+        "maxProgress": 1,
+        "progress": 1,
+        "unlocked": true,
+        "unlockedAt": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "ach_first_quest",
+        "code": "FIRST_QUEST",
+        "title": "FIRST STEP",
+        "description": "Complete your first assigned System Quest.",
+        "category": "FOUNDATION",
+        "expReward": 150,
+        "maxProgress": 1,
+        "progress": 0,
+        "unlocked": false
+      },
+      {
+        "id": "ach_streak_7",
+        "code": "SURVIVOR_7",
+        "title": "7-DAY SURVIVOR",
+        "description": "Complete quests for 7 consecutive days without failing.",
+        "category": "STREAK",
+        "expReward": 350,
+        "maxProgress": 7,
+        "progress": 1,
+        "unlocked": false
+      },
+      {
+        "id": "ach_streak_30",
+        "code": "IRON_WILL_30",
+        "title": "IRON WILL",
+        "description": "Maintain a 30-day continuous System streak.",
+        "category": "STREAK",
+        "expReward": 1000,
+        "maxProgress": 30,
+        "progress": 1,
+        "unlocked": false
+      },
+      {
+        "id": "ach_disc_50",
+        "code": "DISCIPLINED_50",
+        "title": "DISCIPLINED",
+        "description": "Successfully fulfill 50 System quests.",
+        "category": "MASTERY",
+        "expReward": 500,
+        "maxProgress": 50,
+        "progress": 0,
+        "unlocked": false
+      },
+      {
+        "id": "ach_disc_100",
+        "code": "CENTURION_100",
+        "title": "CENTURION",
+        "description": "Successfully fulfill 100 System quests.",
+        "category": "MASTERY",
+        "expReward": 1200,
+        "maxProgress": 100,
+        "progress": 0,
+        "unlocked": false
+      },
+      {
+        "id": "ach_rank_c",
+        "code": "RANK_C_PROMOTION",
+        "title": "ADVANCED PROTAGONIST",
+        "description": "Achieve System Rank C classification.",
+        "category": "MASTERY",
+        "expReward": 400,
+        "maxProgress": 1,
+        "progress": 0,
+        "unlocked": false
+      },
+      {
+        "id": "ach_emergency",
+        "code": "LIMIT_BREAKER",
+        "title": "LIMIT BREAKER",
+        "description": "Overcome a high-stress Emergency Quest before expiration.",
+        "category": "SPECIAL",
+        "expReward": 600,
+        "maxProgress": 1,
+        "progress": 0,
+        "unlocked": false
+      }
+    ]
+  },
+  "systemLogs": {
+    "user_ohm": [
+      {
+        "id": "log_1789694297882_vaz",
+        "userId": "user_ohm",
+        "action": "QUEST_COMPLETE",
+        "details": "Quest \"RECOVERY PROTOCOL: BIOMETRIC RESTORATION\" cleared directly.",
+        "timestamp": "2026-09-18T01:18:17.882Z"
+      },
+      {
+        "id": "log_1789694297347_235",
+        "userId": "user_ohm",
+        "action": "QUEST_COMPLETE",
+        "details": "Quest \"NEURAL CONCENTRATION\" cleared directly.",
+        "timestamp": "2026-09-18T01:18:17.347Z"
+      },
+      {
+        "id": "log_1789694121449_qmc",
+        "userId": "user_ohm",
+        "action": "STAT_ALLOCATED",
+        "details": "Allocated 1 attribute point to STR. Current: 19. Remaining: 0.",
+        "timestamp": "2026-09-18T01:15:21.449Z"
+      },
+      {
+        "id": "log_1789694110705_q0a",
+        "userId": "user_ohm",
+        "action": "QUEST_COMPLETE",
+        "details": "Quest \"THE FOUNDATION PROTOCOL\" cleared directly.",
+        "timestamp": "2026-09-18T01:15:10.705Z"
+      },
+      {
+        "id": "log_1789693965452_ryn",
+        "userId": "user_ohm",
+        "action": "STAT_ALLOCATED",
+        "details": "Allocated 1 attribute point to DISC. Current: 25. Remaining: 1.",
+        "timestamp": "2026-09-18T01:12:45.453Z"
+      },
+      {
+        "id": "log_1789693962517_zor",
+        "userId": "user_ohm",
+        "action": "QUEST_ASSIGNED",
+        "details": "New RECOVERY quest \"RECOVERY PROTOCOL: BIOMETRIC RESTORATION\" assigned by System.",
+        "timestamp": "2026-09-18T01:12:42.517Z"
+      },
+      {
+        "id": "log_1",
+        "userId": "user_ohm",
+        "action": "SYSTEM_BOOT",
+        "details": "Player Ohm system session active.",
+        "timestamp": "2026-09-18T01:09:45.255Z"
+      },
+      {
+        "id": "log_2",
+        "userId": "user_ohm",
+        "action": "QUEST_VERIFIED",
+        "details": "Push-ups 30/50 logged via action verification.",
+        "timestamp": "2026-09-18T00:39:45.255Z"
+      }
+    ],
+    "user_jane": [
+      {
+        "id": "log_j1",
+        "userId": "user_jane",
+        "action": "SYSTEM_INITIALIZED",
+        "details": "Player JANE initialized.",
+        "timestamp": "2026-09-18T01:09:45.255Z"
+      }
+    ]
+  },
+  "chatMessages": {
+    "user_ohm": [
+      {
+        "id": "msg_ohm_1",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nDAILY QUEST ASSIGNED.\nPLAYER: OHM\nLEVEL: 12\nRANK: C\n\nOBJECTIVES:\n- PUSH-UP × 50\n- SQUAT × 80\n- WALK × 30 MIN\n\nCOMPLETE BEFORE 23:59.",
+        "timestamp": "2026-09-17T17:09:45.255Z"
+      },
+      {
+        "id": "msg_ohm_2",
+        "sender": "PLAYER",
+        "text": "วันนี้ทำ push-up ไปแล้ว 30 ครั้ง",
+        "timestamp": "2026-09-18T00:39:45.255Z"
+      },
+      {
+        "id": "msg_ohm_3",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nACTION DETECTED.\n\nPUSH-UP: 30 / 50\nREMAINING: 20 REPS\n\nSTATUS: IN PROGRESS.\nMAINTAIN DISCIPLINE.",
+        "timestamp": "2026-09-18T00:39:50.255Z",
+        "actionDetected": true,
+        "questActionSummary": "PUSH-UP: 30 / 50"
+      },
+      {
+        "id": "msg_1789693952666_x0dt",
+        "sender": "PLAYER",
+        "text": "วันนี้ทำ push-up ไปแล้ว 15",
+        "timestamp": "2026-09-18T01:12:32.666Z"
+      },
+      {
+        "id": "msg_1789693957349_oexe",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nACTION DETECTED.\n\nPUSH-UPS: 45 / 50 REPS\nQUEST CONDITION PROGRESS UPDATED.",
+        "timestamp": "2026-09-18T01:12:37.349Z",
+        "actionDetected": true,
+        "questActionSummary": "Push-ups: 45 / 50 reps"
+      },
+      {
+        "id": "msg_1789693959857_nker",
+        "sender": "PLAYER",
+        "text": "วันนี้เหนื่อยมาก หมดแรงเลย",
+        "timestamp": "2026-09-18T01:12:39.857Z"
+      },
+      {
+        "id": "msg_1789693962517_cktm",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nPHYSIOLOGICAL STRESS DETECTED.\nPLAYER: OHM\n\nRECOMMENDATION:\nINITIATE RECOVERY PROTOCOL.\nHYDRATION + 8 HOURS REM SLEEP.",
+        "timestamp": "2026-09-18T01:12:42.517Z",
+        "actionDetected": false
+      },
+      {
+        "id": "msg_1789694179436_1jwr",
+        "sender": "PLAYER",
+        "text": "วันนี้ทำ push-up ไปแล้ว 30",
+        "timestamp": "2026-09-18T01:16:19.436Z"
+      },
+      {
+        "id": "msg_1789694181623_o1rg",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nACTION DETECTED.\n\nPUSH-UP: +30 REPS LOGGED.\nQUEST CONDITION PROGRESS UPDATED.\n+25 EXP VERIFIED.",
+        "timestamp": "2026-09-18T01:16:21.623Z",
+        "actionDetected": true,
+        "questActionSummary": "Push-up: +30 reps logged.",
+        "expAwarded": 25
+      },
+      {
+        "id": "msg_1789694203544_op3t",
+        "sender": "PLAYER",
+        "text": "รายงานสถานะปัจจุบัน",
+        "timestamp": "2026-09-18T01:16:43.544Z"
+      },
+      {
+        "id": "msg_1789694208053_qe8y",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\\nPLAYER: OHM\\nLEVEL: 12 | RANK: C\\n\\n[ACTIVE QUEST: RECOVERY PROTOCOL]\\n- Pure Hydration Intake: 0 / 2000 ml\\n- Full Body Mobility & Stretching: 0 / 20 min\\n- Early Sleep Protocol: 0 / 1 session\\n\\n[ACTIVE QUEST: NEURAL CONCENTRATION]\\n- Zero Phone Distraction Work: 45 / 45 min [COMPLETE]\\n- Read Technical / Knowledge Material: 0 / 20 pages\\n\\nStatus verified. Awaiting action execution.",
+        "timestamp": "2026-09-18T01:16:48.053Z",
+        "actionDetected": false
+      },
+      {
+        "id": "msg_1789694216223_cjqw",
+        "sender": "PLAYER",
+        "text": "วันนี้เหนื่อยมาก ขอ protocol ฟื้นฟู",
+        "timestamp": "2026-09-18T01:16:56.223Z"
+      },
+      {
+        "id": "msg_1789694222781_me91",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nPHYSIOLOGICAL STRESS DETECTED.\nPLAYER: OHM\n\nRECOMMENDATION:\nINITIATE RECOVERY PROTOCOL.\nHYDRATION + 8 HOURS REM SLEEP.",
+        "timestamp": "2026-09-18T01:17:02.781Z",
+        "actionDetected": false
+      }
+    ],
+    "user_jane": [
+      {
+        "id": "msg_jane_1",
+        "sender": "SYSTEM",
+        "text": "[SYSTEM]\nPLAYER IDENTIFICATION COMPLETE.\n\nPLAYER: JANE\nLEVEL: 01\nRANK: E\nEXP: 0 / 100\n\nSYSTEM INITIALIZATION COMPLETE.\nWELCOME, PLAYER.",
+        "timestamp": "2026-09-18T01:09:45.255Z"
+      }
+    ]
+  },
+  "lineBindings": {},
+  "linePairingCodes": {
+    "SOLO-OHM-7439": "user_ohm"
+  },
+  "lineWebhookLogs": [
+    {
+      "id": "wh_1789695072951",
+      "timestamp": "2026-09-18T01:31:12.951Z",
+      "eventType": "UNAUTHORIZED_WEBHOOK",
+      "status": "ERROR",
+      "signatureVerified": false,
+      "text": "Invalid HMAC signature header."
+    }
+  ]
+}
